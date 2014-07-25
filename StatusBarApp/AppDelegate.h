@@ -8,7 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    NSStatusItem *statusItem;
+    IBOutlet NSMenu *menu;
+    IBOutlet NSTextField *loadAverageTextField;
+    NSButton *getLoadButton;
+}
+- (IBAction)getLoad:(id)sender;
+- (void) setLoad;
 
 @property (assign) IBOutlet NSWindow *window;
 

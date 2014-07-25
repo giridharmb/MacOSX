@@ -18,6 +18,10 @@
 		E31F37E61982037D00572987 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31F37C51982037D00572987 /* Cocoa.framework */; };
 		E31F37EE1982037D00572987 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E31F37EC1982037D00572987 /* InfoPlist.strings */; };
 		E31F37F01982037D00572987 /* StatusBarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E31F37EF1982037D00572987 /* StatusBarAppTests.m */; };
+		E31F37FA1982049C00572987 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = E31F37F91982049C00572987 /* icon1.png */; };
+		E31F37FC1982053100572987 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E31F37FB1982053100572987 /* star.png */; };
+		E31F37FE19820A4500572987 /* star18x18.png in Resources */ = {isa = PBXBuildFile; fileRef = E31F37FD19820A4500572987 /* star18x18.png */; };
+		E3C6B9B51982525100FA7000 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E3C6B9B41982525100FA7000 /* ReadMe.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		E31F37EB1982037D00572987 /* StatusBarAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StatusBarAppTests-Info.plist"; sourceTree = "<group>"; };
 		E31F37ED1982037D00572987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E31F37EF1982037D00572987 /* StatusBarAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarAppTests.m; sourceTree = "<group>"; };
+		E31F37F91982049C00572987 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		E31F37FB1982053100572987 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		E31F37FD19820A4500572987 /* star18x18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star18x18.png; sourceTree = "<group>"; };
+		E3C6B9B41982525100FA7000 /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,11 +135,15 @@
 		E31F37CC1982037D00572987 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E31F37F91982049C00572987 /* icon1.png */,
 				E31F37CD1982037D00572987 /* StatusBarApp-Info.plist */,
 				E31F37CE1982037D00572987 /* InfoPlist.strings */,
+				E31F37FD19820A4500572987 /* star18x18.png */,
+				E31F37FB1982053100572987 /* star.png */,
 				E31F37D11982037D00572987 /* main.m */,
 				E31F37D31982037D00572987 /* StatusBarApp-Prefix.pch */,
 				E31F37D41982037D00572987 /* Credits.rtf */,
+				E3C6B9B41982525100FA7000 /* ReadMe.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,8 +244,12 @@
 			files = (
 				E31F37D01982037D00572987 /* InfoPlist.strings in Resources */,
 				E31F37DE1982037D00572987 /* Images.xcassets in Resources */,
+				E3C6B9B51982525100FA7000 /* ReadMe.rtf in Resources */,
 				E31F37D61982037D00572987 /* Credits.rtf in Resources */,
+				E31F37FA1982049C00572987 /* icon1.png in Resources */,
+				E31F37FE19820A4500572987 /* star18x18.png in Resources */,
 				E31F37DC1982037D00572987 /* MainMenu.xib in Resources */,
+				E31F37FC1982053100572987 /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +482,7 @@
 				E31F37F51982037D00572987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E31F37F61982037D00572987 /* Build configuration list for PBXNativeTarget "StatusBarAppTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +491,7 @@
 				E31F37F81982037D00572987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
